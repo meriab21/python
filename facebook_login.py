@@ -65,7 +65,7 @@ while True:
     body.send_keys(Keys.ARROW_DOWN)
     time.sleep(one_sec_delay)
     body.send_keys(Keys.PAGE_DOWN)
-    time.sleep(second_delay)
+time.sleep(second_delay)~
     body.send_keys(Keys.ARROW_UP)
     time.sleep(first_delay)
     if int(first_delay)% 2 ==0:
